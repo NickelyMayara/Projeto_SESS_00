@@ -59,7 +59,7 @@ const Form = () => {
                                     <InputU
                                         type="text"
                                         name="unidade"
-                                        placeholder=""
+                                        placeholder="Cambona / Benedito"
                                     />
                                 </DivInputU>
                                 <DivInputT>
@@ -67,7 +67,7 @@ const Form = () => {
                                         Turma:
                                     </Label>
                                     <InputT
-                                        type="Number"
+                                        type="text"
                                         name="turma"
                                         placeholder=""
 
@@ -82,7 +82,7 @@ const Form = () => {
                             <Input
                                 as="textarea"
                                 name="message"
-                                placeholder=""
+                                placeholder="Digite seu texto..."
                                 rows="4"
                             />
                             <Button type="submit">Enviar</Button>

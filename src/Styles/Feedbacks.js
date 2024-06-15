@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const SectionFeed = styled.section`
 display: flex;
-flex-direction: row;
 background-color: white;
 justify-content:center ;
 align-items: center;
+height: 723px;
 `
 export const DivImage = styled.div`
 margin:20px;
@@ -44,6 +44,8 @@ width: 300px;
 border-radius: 10px;
 border: 1px solid #E3E4F0;
 background-color: #E3E4F0;
+font-family: cursive;
+font-size: 12px;
 `;
 
 export const DivInput = styled.div`
